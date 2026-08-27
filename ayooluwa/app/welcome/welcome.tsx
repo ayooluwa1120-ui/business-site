@@ -36,7 +36,7 @@ function NavBar() {
         )
       })}
     </span>
-    <Link to="https://www.linkedin.com/in/joseph-olatunji" className='rounded-md bg-[#B8935A] p-1 px-3 text-black transition-all duration-300 hover:-translate-y-0.5 hover:bg-[#d4af73] hover:shadow-lg'>Connect</Link>
+    <Link to="https://www.linkedin.com/in/joseph-olatunji" className='rounded-md bg-white p-1 px-3 text-black transition-all duration-300 hover:-translate-y-0.5 hover:bg-[#d4af73] hover:shadow-lg'>Connect</Link>
    </nav>
   );
 }
@@ -50,7 +50,7 @@ function Section1() {
         <br />
         <span className='text-[#B8935A]'>right</span>.</h1>
 
-        <p className='mt-5 opacity-50 text-md'>I build Websites and Web Apps frontend - turning designs 
+        <p className='mt-5 opacity-80 text-md'>I build Websites and Web Apps frontend - turning designs 
           <br />
           into software your business can rely on and scale with.</p>
 
@@ -98,7 +98,7 @@ function Projects() {
   return (
     <section className='mt-24 px-6 sm:px-10 lg:px-20'>
      
-     <p className='mb-6 text-sm font-semibold uppercase tracking-[0.2em] text-[#B8935A]'>Past project</p>
+     <p className='mb-6 text-md font-bold uppercase tracking-[0.2em] text-[#B8935A]'>Past project</p>
 
       <div className='max-w-3xl rounded-[3px] border border-[#26303D] bg-[#121A25] p-6 sm:p-8'>
        <p className='text-xl font-semibold text-white sm:text-2xl'>Interactive Service & Pricing Estimator</p>
@@ -123,7 +123,7 @@ function Stages() {
 
       <span>
        <p className='text-xl ml-0 sm:ml-30'>Discovery</p>
-      <p className='text-white/50 ml-0 sm:ml-30'>We define the problem, the users, and what &quot;done&quot; looks like - scope, timeline, and
+      <p className='text-white/70 ml-0 sm:ml-30'>We define the problem, the users, and what &quot;done&quot; looks like - scope, timeline, and
         <br className='hidden sm:block' />
         budget agreed before any work begins.
        </p>
@@ -136,7 +136,7 @@ function Stages() {
 
       <span>
         <p className='text-xl ml-0 sm:ml-30'>Build</p>
-       <p className='text-white/50 ml-0 sm:ml-30'>Regular check-ins with working builds, not just progress reports. You see the product
+       <p className='text-white/70 ml-0 sm:ml-30'>Regular check-ins with working builds, not just progress reports. You see the product
         <br className='hidden sm:block' />
         take shape at every stage.
        </p>
@@ -146,7 +146,7 @@ function Stages() {
 
       <span>
         <p className='text-xl ml-0 sm:ml-30'>Launch</p>
-      <p className='text-white/50 ml-0 sm:ml-30'>Deployment, documentation and a proper handover - so you&apos;re never locked out of
+      <p className='text-white/70 ml-0 sm:ml-30'>Deployment, documentation and a proper handover - so you&apos;re never locked out of
         <br className='hidden sm:block' />
         your own product.
        </p>

@@ -62,12 +62,12 @@ export function ServiceRequest() {
     <section className='grid grid-cols-1 gap-12 mt-20 ml-6 mr-6 sm:ml-10 sm:mr-10 lg:grid-cols-2 lg:gap-0 lg:ml-20 lg:mr-0'>
       <div className='space-y-5'>
         <h3 className='text-3xl text-[#B8935A] font-semibold'>Tell me about your project</h3>
-        <p className='text-white/50'>Fill in the brief and I&apos;ll reply within a day - with some
+        <p className='text-white/70'>Fill in the brief and I&apos;ll reply within a day - with some
           <br />
           questions.
         </p>
-        <p className='text-white/50'><span className='font-semibold text-white'>Response time</span> - Within 24 hours</p>
-        <p className='text-white/50'><span className='font-semibold text-white'>Availability</span> - New projects welcome</p>
+        <p className='text-white/70'><span className='font-semibold text-white'>Response time</span> - Within 24 hours</p>
+        <p className='text-white/70'><span className='font-semibold text-white'>Availability</span> - New projects welcome</p>
       </div>
       <form onSubmit={handleSubmit} className='mr-0 w-full max-w-110 overflow-hidden rounded-[3px] border border-[#26303D] bg-[#121A25] lg:mr-20'>
         <div className='border-b border-[#26303D] px-8 py-6'>
